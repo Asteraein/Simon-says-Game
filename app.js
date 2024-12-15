@@ -59,7 +59,7 @@ function checkAns(idx) {
     document.querySelector("body").style.backgroundColor = "red";  //when game is over screen will become red 
     setTimeout(function() {
       document.querySelector("body").style.backgroundColor = "white"; //we dont want it to be red whole time so resets color to white
-    })
+    },150)
     reset();
   }
 }
