@@ -55,7 +55,7 @@ function checkAns(idx) {
     }
     console.log("same value");
   } else {
-    h2.innerHTML =`Game Over! Your Score was <b> ${level}</b> <br> press any key to start`;
+    h2.innerHTML =`Game Over! Your Score was <b> ${level * 4 }</b> <br> press any key to start`;
     document.querySelector("body").style.backgroundColor = "red";  //when game is over screen will become red 
     setTimeout(function() {
       document.querySelector("body").style.backgroundColor = "white"; //we dont want it to be red whole time so resets color to white
